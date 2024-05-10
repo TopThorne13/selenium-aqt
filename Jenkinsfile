@@ -13,7 +13,7 @@ pipeline {
                     try {
                         bat 'mvn test'
                     } catch (e) {
-                        unstable('Testing failed')
+                        unstable('Testing failed now')
                         echo 'Tests failed'
                     }
                 }
