@@ -9,12 +9,13 @@ pipeline {
         }
         stage('Test') {
             steps {
-                try {
-                    bat 'mvn test'
-                }
-                catch (e) {
-                    unstable('Testing failed')
-                    echo 'Tests failed'
+                script {
+                    try {
+                        bat 'mvn test'
+                    } catch (e) {
+                        unstable('Testing failed')
+                        echo 'Tests failed'
+                    }
                 }
             }
         }
