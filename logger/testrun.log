@@ -1,1 +1,10 @@
 2024-05-04 00:31:24 INFO  todaysDealTest:29 - TodaysDeal_Test: Begin Test
+2024-05-10 10:07:21 INFO  cartItemsTest:38 - EmptyCart: Begin Test
+2024-05-10 10:07:22 INFO  cartItemsTest:46 - EmptyCart: True
+2024-05-10 10:07:22 INFO  cartItemsTest:49 - EmptyCart: Take Screenshot
+2024-05-10 10:07:29 INFO  cartItemsTest:66 - FreeDelivery: Begin Test
+2024-05-10 10:07:37 INFO  cartItemsTest:83 - FreeDelivery: True
+2024-05-10 10:07:37 INFO  cartItemsTest:86 - FreeDelivery: Take Screenshot
+2024-05-10 10:07:44 INFO  cartItemsTest:102 - NoFreeDelivery: Begin Test
+2024-05-10 10:07:58 INFO  cartItemsTest:119 - NoFreeDelivery: True
+2024-05-10 10:07:58 INFO  cartItemsTest:122 - NoFreeDelivery: Take Screenshot

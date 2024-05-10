@@ -1,0 +1,13 @@
+pages\productPage.class
+pages\searchResults.class
+testcases\searchTest.class
+testcases\pincodeTest.class
+library\DriverManager.class
+pages\homepage.class
+testcases\cartItemsTest.class
+library\ReadProperties.class
+pages\cart.class
+library\BrowserManager.class
+library\Base.class
+testcases\titleUrlAssert.class
+testcases\todaysDealTest.class

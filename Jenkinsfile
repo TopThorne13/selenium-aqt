@@ -4,17 +4,23 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'mvn clean package'
+                bat 'mvn clean install'
             }
         }
         stage('Test') {
             steps {
-                sh 'mvn test'
+                try {
+                    bat 'mvn test'
+                }
+                catch (e) {
+                    unstable('Testing failed')
+                    echo 'Tests failed'
+                }
             }
         }
         stage('Cleanup') {
             steps {
-                sh 'rm -rf Reports Screenshots'
+                bat 'rmdir /s /q Reports Screenshots'
             }
         }
     }
