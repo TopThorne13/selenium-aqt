@@ -3,7 +3,9 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
+      <class name="testcases.pincodeTest"/>
       <class name="testcases.cartItemsTest"/>
+      <class name="testcases.titleUrlAssert"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

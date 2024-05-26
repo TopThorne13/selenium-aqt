@@ -76,13 +76,12 @@ public class Base {
 			extentTest().skip(result.getTestName());
 		}
 		getDriver().quit();
-		extent.removeTest(result.getTestName());
+		extent.removeTest(extentTest());
 	}
 
 	@AfterTest
 	public void tearDown() {
 		System.out.println("After Test Thread ID: " + Thread.currentThread().getId());
-
 		DriverManager.remove();
 		extent.flush();
 	}

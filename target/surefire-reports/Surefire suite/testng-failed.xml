@@ -13,25 +13,6 @@
           <include name="startReport"/>
         </methods>
       </class> <!-- testcases.pincodeTest -->
-      <class name="testcases.searchTest">
-        <methods>
-          <include name="getResult"/>
-          <include name="MinPriceCheck_Test"/>
-          <include name="tearDown"/>
-          <include name="Setup"/>
-          <include name="FirstResultSS_Test"/>
-          <include name="startReport"/>
-        </methods>
-      </class> <!-- testcases.searchTest -->
-      <class name="testcases.todaysDealTest">
-        <methods>
-          <include name="TodaysDeal_Test"/>
-          <include name="getResult"/>
-          <include name="tearDown"/>
-          <include name="Setup"/>
-          <include name="startReport"/>
-        </methods>
-      </class> <!-- testcases.todaysDealTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

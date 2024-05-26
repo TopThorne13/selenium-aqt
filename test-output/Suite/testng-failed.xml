@@ -3,15 +3,16 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testcases.titleUrlAssert">
+      <class name="testcases.pincodeTest">
         <methods>
+          <include name="PIN_Fail"/>
+          <include name="PIN_Pass"/>
           <include name="getResult"/>
-          <include name="URLAssert"/>
           <include name="tearDown"/>
           <include name="Setup"/>
           <include name="startReport"/>
         </methods>
-      </class> <!-- testcases.titleUrlAssert -->
+      </class> <!-- testcases.pincodeTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
